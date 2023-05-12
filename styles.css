@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(RedOcean.jpg);
+}
+
+.main {
+  width: 40vw;
+  margin: 8rem auto;
+  padding: 1rem;
+  background-color: rgba(37, 0, 0, 0.292);
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.header svg {
+  width: 10rem;
+  padding: 2rem;
+}
+.inputs {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 247, 255, 0.44);
+  padding: 0.4rem;
+  width: 30rem;
+  color: black;
+  margin: 0 auto;
+}
+.inputs:hover {
+  border: none;
+  border-bottom: 1px solid rgba(0, 247, 255, 0.835);
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 80%;
+  margin: 1rem auto;
+}
+a {
+  text-decoration: none;
+  color: rgba(187, 187, 187, 0.594);
+}
+
+.btn {
+  width: 20%;
+
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.917);
+}
+
+.userMain {
+  width: fit-content;
+  background-color: rgba(165, 42, 42, 0.333);
+  color: white;
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 1rem;
+}
+/* .userMain{
+} */
+.remove {
+  display: none;
+}
