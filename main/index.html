@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="main">
-      <form action="" method="post" target="users.html">
+      <form>
         <div class="header">
           <svg
             version="1.1"
@@ -42,79 +42,78 @@
           required
           autocomplete="off"
         />
-        <select name="Country" class="inputs" id="country" placeholder="name">
+        <input list="country" class="inputs" placeholder="Enter your Country" />
+        <datalist id="country">
+          <!-- <select name="Country" class="inputs" id="country"> -->
           <option
             style="background-color: rgba(0, 0, 0, 0.818)"
             value="United Kingdom"
-          >
-            United Kingdom
-          </option>
-          <option style="background-color: rgba(0, 0, 0, 0.818)" value="Canada">
-            Canada
-          </option>
-          <option style="background-color: rgba(0, 0, 0, 0.818)" value="Mexico">
-            Mexico
-          </option>
-          <option style="background-color: rgba(0, 0, 0, 0.818)" value="Brazil">
-            Brazil
-          </option>
-          <option style="background-color: rgba(0, 0, 0, 0.818)" value="Kenya">
-            Kenya
-          </option>
+          ></option>
+          <option
+            style="background-color: rgba(0, 0, 0, 0.818)"
+            value="Canada"
+          ></option>
+          <option
+            style="background-color: rgba(0, 0, 0, 0.818)"
+            value="Mexico"
+          ></option>
+          <option
+            style="background-color: rgba(0, 0, 0, 0.818)"
+            value="Brazil"
+          ></option>
+          <option
+            style="background-color: rgba(0, 0, 0, 0.818)"
+            value="Kenya"
+          ></option>
           <option
             style="background-color: rgba(0, 0, 0, 0.818)"
             value="Germany"
-          >
-            Germany
-          </option>
-          <option style="background-color: rgba(0, 0, 0, 0.818)" value="France">
-            France
-          </option>
-          <option style="background-color: rgba(0, 0, 0, 0.818)" value="Japan">
-            Japan
-          </option>
+          ></option>
+          <option
+            style="background-color: rgba(0, 0, 0, 0.818)"
+            value="France"
+          ></option>
+          <option
+            style="background-color: rgba(0, 0, 0, 0.818)"
+            value="Japan"
+          ></option>
           <option
             style="background-color: rgba(0, 0, 0, 0.818)"
             value="Australia"
-          >
-            Australia
-          </option>
+          ></option>
           <option
             style="background-color: rgba(0, 0, 0, 0.818)"
             value="Slovakia"
-          >
-            Slovakia
-          </option>
-        </select>
-        <select name="Country" class="inputs" id="country">
+          ></option>
+        </datalist>
+        <input
+          list="language"
+          name="Country"
+          class="inputs"
+          placeholder="Choose Language"
+        />
+        <datalist id="language">
           <option
             style="background-color: rgba(0, 0, 0, 0.818)"
             value="Swahili"
-          >
-            Swahili
-          </option>
+          ></option>
           <option
             style="background-color: rgba(0, 0, 0, 0.618)"
             value="Turkish"
-          >
-            Turkish
-          </option>
+          ></option>
           <option
             style="background-color: rgba(0, 0, 0, 0.618)"
             value="Bengali"
-          >
-            Bengali
-          </option>
+          ></option>
           <option
             style="background-color: rgba(0, 0, 0, 0.618)"
             value="English"
-          >
-            English
-          </option>
-          <option style="background-color: rgba(0, 0, 0, 0.618)" value="Dutch">
-            Dutch
-          </option>
-        </select>
+          ></option>
+          <option
+            style="background-color: rgba(0, 0, 0, 0.618)"
+            value="Dutch"
+          ></option>
+        </datalist>
         <div class="btnDiv">
           <a href="users.html">Users</a>
 

@@ -9,11 +9,11 @@ body {
 .main {
   width: 40vw;
   margin: 5rem auto;
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: rgba(37, 0, 0, 0.292);
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 1rem; */
 }
 
 .header svg {
@@ -25,10 +25,10 @@ body {
   border: none;
   outline: none;
   border-bottom: 1px solid rgba(0, 247, 255, 0.25);
-  padding: 0.7rem;
+  padding: 0.5rem;
   width: 80%;
   color: rgba(255, 255, 255, 0.723);
-  margin: 1rem auto 0;
+  margin: 1.2rem auto 0;
 }
 
 .inputs:hover {
